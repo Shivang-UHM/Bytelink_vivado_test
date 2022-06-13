@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../test_qbl.gen/sources_1/bd/design_1/ipshared/d0f7" \
+"../../../../test_qbl.ip_user_files/bd/design_1/ip/design_1_bytelink_0_0/src/SerializationFifo/sim/SerializationFifo.v" \
+"../../../../test_qbl.ip_user_files/bd/design_1/ip/design_1_sim_clk_gen_0_0/sim/design_1_sim_clk_gen_0_0.v" \
+"../../../../test_qbl.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_1/design_1_clk_wiz_0_1_clk_wiz.v" \
+"../../../../test_qbl.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_1/design_1_clk_wiz_0_1.v" \
+"../../../../test_qbl.ip_user_files/bd/design_1/ip/design_1_sim_rst_gen_0_0/sim/design_1_sim_rst_gen_0_0.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

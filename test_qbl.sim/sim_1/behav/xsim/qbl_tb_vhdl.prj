@@ -1,0 +1,20 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../test_qbl.ip_user_files/bd/design_1/ipshared/b544/src/UtilityPkg.vhd" \
+
+vhdl2008 xil_defaultlib  \
+"../../../../test_qbl.ip_user_files/bd/design_1/ipshared/b544/src/Encode8b10b.vhd" \
+"../../../../test_qbl.ip_user_files/bd/design_1/ipshared/b544/src/Decode8b10b.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../test_qbl.ip_user_files/bd/design_1/ipshared/b544/src/ByteLink.vhd" \
+"../../../../test_qbl.ip_user_files/bd/design_1/ipshared/b544/src/K7SerialInterfaceIn.vhd" \
+"../../../../test_qbl.ip_user_files/bd/design_1/ipshared/b544/src/K7SerialInterfaceOut.vhd" \
+"../../../../test_qbl.ip_user_files/bd/design_1/ipshared/b544/src/TopBytelink.vhd" \
+"../../../../test_qbl.ip_user_files/bd/design_1/ip/design_1_bytelink_0_0/sim/design_1_bytelink_0_0.vhd" \
+"../../../../test_qbl.ip_user_files/bd/design_1/ip/design_1_bytelink_1_0/sim/design_1_bytelink_1_0.vhd" \
+"../../../../test_qbl.ip_user_files/bd/design_1/sim/design_1.vhd" \
+"../../../../test_qbl.srcs/sim_1/new/qbl_tb.vhd" \
+
+# Do not sort compile order
+nosort

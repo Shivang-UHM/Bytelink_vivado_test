@@ -1,0 +1,17 @@
+vhdl xil_defaultlib  \
+"../../../bd/design_1/ipshared/b544/src/UtilityPkg.vhd" \
+
+vhdl2008 xil_defaultlib  \
+"../../../bd/design_1/ipshared/b544/src/Encode8b10b.vhd" \
+"../../../bd/design_1/ipshared/b544/src/Decode8b10b.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../bd/design_1/ipshared/b544/src/ByteLink.vhd" \
+"../../../bd/design_1/ipshared/b544/src/K7SerialInterfaceIn.vhd" \
+"../../../bd/design_1/ipshared/b544/src/K7SerialInterfaceOut.vhd" \
+"../../../bd/design_1/ipshared/b544/src/TopBytelink.vhd" \
+"../../../bd/design_1/ip/design_1_bytelink_0_0/sim/design_1_bytelink_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_bytelink_1_0/sim/design_1_bytelink_1_0.vhd" \
+"../../../bd/design_1/sim/design_1.vhd" \
+
+nosort
